@@ -11,6 +11,7 @@ End mux;
 Architecture BE of mux is
 	 Begin
 		process(E, a, b, c, d, s)
+		begin
 			if E = '1' then
 				if s = "00" then
 					y <= a;
