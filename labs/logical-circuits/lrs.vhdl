@@ -1,4 +1,3 @@
--- multiplexer with process and if
 Entity lrs is
 	Port(
 		r, s: in bit;
